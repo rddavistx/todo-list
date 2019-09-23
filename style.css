@@ -1,0 +1,147 @@
+body {
+	margin:0;
+}
+
+
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#ffffff;
+	background: #bf5700;
+	border: 3px solid #333f48;
+	border-radius: 20px;
+}
+form {
+	width: 50%;
+	margin: 30px auto;
+	border-radius: 5px;
+	padding: 10px;
+	background: #bf5700;
+	border: 1px solid #333f48;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px;
+	padding: 10px;
+	border: 2px solid #6B8E23;
+	margin-top: 20px;
+}
+.add_btn {
+	height: 39px;
+	background: #333f48;
+	color: 	#ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+	font-size: 19px;
+	color: #6B8E23;
+}
+
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+    text-align: left;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+h2 {
+	text-align: center;
+
+}
+input[type=radio] {
+	margin: 7px;
+}
+
+.number {
+	width:180px;
+}
+
+.update_task {
+	font-size: 30px;
+    border: none;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.textarea_task {
+	text-align: justify;
+	border:1px solid black;
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+textarea {
+	width: 50%;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	form {
+		width:100%;
+	}
+	table {
+		width:80%;
+	}
+	textarea {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.heading {
+		width:100%;
+	}
+	form {
+		font-size: 12px;
+	}
+	.task_input {
+		width:65%;
+	}
+	th {
+		font-size: 14px;
+	}
+	.number {
+		width:70px;
+	}
+	a {
+		font-size: 14px;
+	}
+}
